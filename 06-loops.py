@@ -33,7 +33,7 @@ i = 10
 while i >= 0:
     print(i)
     i = i-1
-    
+
 while True:
     a = int(input("Podaj liczbę od 1 do 10:"))
     if (a >= 1) and (a <= 10):

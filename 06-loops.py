@@ -27,11 +27,13 @@ for value in range(10, 101, 5):
 print("\n")
 for value in range(10, -11, -1):
     print(value, end=" ")
+
 print("\n\n")
 i = 10
 while i >= 0:
     print(i)
     i = i-1
+    
 while True:
     a = int(input("Podaj liczbę od 1 do 10:"))
     if (a >= 1) and (a <= 10):
